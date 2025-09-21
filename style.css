@@ -1,0 +1,79 @@
+/* General page style */
+body {
+    font-family: "Trebuchet MS", sans-serif; /* custom font */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header and Footer */
+  .header-footer {
+    background-color: #FA8FD3;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+  }
+  
+  /* Nav styling */
+  nav ul {
+    list-style: none; /* no bullet points */
+    display: flex; /* horizontal layout */
+    justify-content: center;
+    background-color: #FA8FD3;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #FA8FD3; /* hover state */
+    border-radius: 5px;
+  }
+  
+  /* Content container with flex layout */
+  .content-container {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  /* Main content */
+  main {
+    width: 70%; /* percentage width */
+    margin: 10px;
+    padding: 15px;
+    background-color: #FEE7F5;
+  }
+  
+  /* Sidebar */
+  aside {
+    width: 30%; /* percentage width */
+    margin: 10px;
+    padding: 15px;
+    background-color: #FEE7F5;
+    transition: background-color 0.3s;
+  }
+  
+  aside:hover {
+    background-color: #AABBFF; /* hover change */
+  }
+  
+  /* Form focus effect */
+  #name {
+    width: 150px;
+    transition: width 0.3s;
+  }
+  
+  #name:focus {
+    width: 250px; /* expands on focus */
+  }
+  
