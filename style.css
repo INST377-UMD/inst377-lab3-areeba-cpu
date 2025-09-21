@@ -19,7 +19,7 @@ body {
     list-style: none; /* no bullet points */
     display: flex; /* horizontal layout */
     justify-content: center;
-    background-color: #FA8FD3;
+    background-color: #F1BAFD;
     margin: 0;
     padding: 0;
   }
@@ -35,7 +35,7 @@ body {
   }
   
   nav ul li a:hover {
-    background-color: #FA8FD3; /* hover state */
+    background-color: #AABBFF; /* hover state */
     border-radius: 5px;
   }
   
